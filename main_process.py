@@ -1,12 +1,11 @@
 import pandas as pd
-
 from azureTrans import gen_str, azure_trans_25
 
 
 """Colums to stract
 
 File to work wit: ORD-331019-K4F1_final_20180813.xlsx
-To use this script specify the name file with extention in the 
+To use this script specify the name file with extension in the 
 variable 'file AND define a array string with the name
 'colum_list'
 Also you mus define a file name for the output and the end of this

@@ -1,0 +1,4 @@
+pandas
+http.client
+uuid
+json
