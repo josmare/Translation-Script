@@ -12,10 +12,6 @@ path = '/translate?api-version=3.0'
 # Translate to English.
 params = "&to=en";
 
-def AquiFuntionTienes():
-    pass
-
-
 def api_trans_call(text):
     """Makes API calls. Based on documentatition from Microsoft"""
 
@@ -45,7 +41,6 @@ def api_trans_call(text):
     for i in range(0, len(text)):
         strout.append(output2[i]['translations'][0]['text'])
 
-    print('')
     return strout
 
 
